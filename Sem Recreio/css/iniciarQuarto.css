@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.quebra-responsiva {
+  display: none;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('../assents/img/fundoporta.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.conteudo {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 10vw;
+  top: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  line-height: 1.5;
+}
+
+.text {
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6b90a6;
+  background-color: #e6af47;
+  padding: 22px 100px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  outline: 2px solid #c49234;
+  outline-offset: -9px;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 1750px) {
+  .conteudo {
+    right: 5vw;
+  }
+}
+
+@media (max-width: 1600px) {
+  .conteudo {
+    right: 2vw;
+  }
+}
+
+@media (max-width: 1450px) {
+  .quebra-responsiva {
+    display: inline;
+  }
+  .conteudo {
+    right: 18vw;
+    top: 38%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .conteudo {
+    right: 12vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .conteudo {
+    top: 28%;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width:480px;
+  }
+}
+
+@media (max-width: 600px) {
+  .conteudo {
+    right: 10vw;
+    top: 36%;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .conteudo {
+    font-size: 1.3rem;
+    right: 0;
+    left: 0;
+    top: 36%;
+    text-align: center;
+    align-items: center;
+  }
+}
