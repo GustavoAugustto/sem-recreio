@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../assents/img/fundoBalanço.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.conteiner {
+  font-family: 'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.textos {
+  position: absolute;
+  top: 10vh;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.linhaUm {
+  color: #e5ad45;
+}
+
+.linhaDois {
+  color: #6b90a6;
+}
+
+.linhaTres {
+  color: #e5ad45;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70vh;
+  gap: 13px;
+}
+
+.btnUm {
+  font-size: 1.5rem;
+  color: #6b90a6;
+  background-color: #e6af47;
+  padding: 18px 100px;
+  outline: 2px solid #c49234;
+  font-weight: 700;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  outline-offset: -9px;
+}
+
+.btnDois {
+  font-size: 1.9rem;
+  color: #e6af47;
+  background-color: #6b90a6;
+  padding: 15px 200px;
+  outline: 2px solid #335467;
+  font-weight: 700;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  outline-offset: -9px;
+}
+
+.btnUm:hover,
+.btnUm:focus-visible {
+  background-color: #e0e0e0;
+}
+
+.btnDois:hover,
+.btnDois:focus-visible {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 550px) {
+  .textos {
+    font-size: 1.8rem;
+  }
+  .btnUm {
+    font-size: 1.3rem;
+    padding: 13px 18px;
+  }
+
+  .btnDois {
+    font-size: 1.3rem;
+    padding: 13px 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .textos {
+    font-size: 1.5rem;
+  }
+  .btnUm {
+    font-size: 1.3rem;
+    padding: 11px 15px;
+  }
+
+  .btnDois {
+    font-size: 1.3rem;
+    padding: 10px 40px;
+  }
+}
