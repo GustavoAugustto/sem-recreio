@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem Recreio | O Quarto</title>
+    <link rel="stylesheet" href="../css/paginainicial.css">
+    <link rel="stylesheet" href="../css/quarto.css">
+    <link rel="stylesheet" href="../css/oQueVcPodeFazer.css">
+</head>
+
+<body class="body-quarto">
+
+    <div class="quarto-experience" id="quartoExperience">
+        <section class="tela ativa" id="tela-intro" data-tela="tela-intro">
+
+            <header class="header">
+                <div class="logo">
+                    <img class="img-logo" src="../assents/img/Logo.png" alt="Sem Recreio">
+                </div>
+
+                <button class="menu-hamburguer" id="menuHamburguer" aria-label="Abrir menu" aria-expanded="false"
+                    aria-controls="menuMobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="menu-mobile" id="menuMobile">
+                    <nav class="navbar" aria-label="Navegação principal">
+                        <ul>
+                            <li><a href="./inicio.html">Início</a></li>
+                            <li><a href="./sobre.html">Sobre</a></li>
+                            <li><a href="./quarto.html">O quarto</a></li>
+                            <li><a href="./ajuda.html">O que você pode fazer</a></li>
+                        </ul>
+                    </nav>
+                    <div class="box">
+                        <a href="./denuncia.html" class="btn">DENUNCIE AQUI</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="tela-intro-conteudo">
+                <img class="intro-emblema" src="../assents/img/Logo.png" alt="Sem Recreio">
+                <p class="intro-tagline">Algumas crianças nunca tiveram tempo para brincar.</p>
+                <button class="btn-quarto" id="btnEntrar">Entrar</button>
+            </div>
+        </section>
+        <section class="tela" id="tela-porta" data-tela="tela-porta">
+            <div class="porta-texto">
+                <p class="porta-linha" id="portaLinha1"></p>
+                <p class="porta-linha porta-linha-secundaria" id="portaLinha2"></p>
+                <button class="btn-quarto" id="btnAbrirPorta" hidden>Abrir Porta</button>
+            </div>
+        </section>
+        <section class="tela" id="tela-quarto" data-tela="tela-quarto">
+            <div class="dica-quarto" id="dicaQuarto">
+                <span class="dica-estrela">★</span>
+                Clique nos objetos para descobrir a história desta criança.
+            </div>
+
+            <div class="contador-fragmentos">
+                <span class="contador-estrela">★</span>
+                <span id="contadorTexto">0/8</span>
+                <span class="contador-legenda">FRAGMENTOS<br>ENCONTRADOS</span>
+            </div>
+        </section>
+        <section class="tela" id="tela-estatisticas" data-tela="tela-estatisticas">
+            <div class="cartao-stats">
+                <h2>A realidade por trás da porta</h2>
+                <p class="stats-subtitulo">Veja como o trabalho infantil afeta as crianças.</p>
+
+                <div class="stats-grid">
+                    <div class="stats-card">
+                        <h3>TRABALHO<br>INFANTIL NO BRASIL</h3>
+                        <p class="stats-numero">1.607.000</p>
+                        <p class="stats-texto">crianças e adolescentes entre 5 e 17 anos estão em trabalho
+                            infantil.</p>
+                        <span class="stats-fonte">Fonte: PNAD Contínua 2023 - IBGE</span>
+                    </div>
+                    <div class="stats-card stats-card-donut">
+                        <h3>TAXA DE EVASÃO<br>ESCOLAR</h3>
+                        <div class="donut" style="--valor:38">
+                            <span class="donut-valor">38%</span>
+                        </div>
+                        <p class="stats-texto">dessas crianças estão fora da escola ou em atraso escolar grave.</p>
+                    </div>
+                </div>
+
+                <div class="stats-faixa">
+                    <span>💡</span>
+                    <p>Cada número representa uma infância roubada</p>
+                    <span>🏠</span>
+                </div>
+            </div>
+
+            <button class="btn-quarto" id="btnContinuarStats">Continuar</button>
+        </section>
+        <section class="tela" id="tela-mensagens" data-tela="tela-mensagens">
+            <div class="card-titulo folha-anim">
+                <div class="titulo-principal">
+                    <h1>O QUE VOCÊ PODE FAZER</h1>
+                    <img src="../assents/img/casa.png" alt="casa">
+                </div>
+                <h2>Pequenas ações podem devolver a infância que foi roubada.</h2>
+            </div>
+
+            <section class="pilar">
+
+                <div class="card folha-anim" data-ordem="1">
+                    <div class="titulo">
+                        <img src="../assents/img/telefone.png" alt="telefone">
+                        <h2>DENUNCIAR</h2>
+                    </div>
+                    <div class="card-Denuncia">
+                        <p>Ligue Disque 100. Denúncia <br> gratuita, sigilosa <br>
+                            e disponível 24 horas <br>
+                            por dia, todos os dias.</p>
+                    </div>
+                    <div class="botao-ligar">
+                        <a href="#">LIGAR:100</a>
+                    </div>
+                </div>
+
+                <div class="card folha-anim" data-ordem="2">
+                    <div class="titulo-dois">
+                        <h2>ONGS PARCEIRAS</h2>
+                    </div>
+                    <div class="card-Denuncia">
+                        <p>Instituições que lutam
+                            diariamente para proteger
+                            e garantir o futuro de
+                            milhões de crianças.</p>
+                    </div>
+                    <div class="botao-ligar">
+                        <a href="#">VER ONGS</a>
+                    </div>
+                </div>
+
+                <div class="card folha-anim" data-ordem="3">
+                    <div class="titulo">
+                        <img src="../assents/img/coração.png" alt="coracao">
+                        <h2>COMPARTILHE</h2>
+                    </div>
+                    <div class="card-Denuncia">
+                        <p>Fale sobre o trabalho
+                            infantil. Quanto mais
+                            pessoas souberem, mais
+                            crianças podem ser
+                            protegidas.</p>
+                    </div>
+                    <div class="botao-ligar">
+                        <a href="#">COMPARTILHAR</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="crde-azul folha-anim">
+                <div class="crianca">
+                    <img src="../assents/img/criança.png" alt="crianca">
+                </div>
+                <h2>INFORMAÇÃO É O PRIMEIRO PASSO. <br> AÇÃO É O QUE TRANSFORMA.</h2>
+                <div class="estrela">
+                    <img src="../assents/img/estrela.png" alt="estrela">
+                </div>
+            </div>
+        </section>
+        <section class="tela" id="tela-final" data-tela="tela-final">
+            <div class="final-texto">
+                <p class="final-linha" data-cor="dourado">Toda criança merece brincar.</p>
+                <p class="final-linha" data-cor="azul">Toda criança merece estudar</p>
+                <p class="final-linha" data-cor="dourado">Toda criança merece ter recreio</p>
+            </div>
+
+            <div class="final-botoes">
+                <button class="btn-quarto" id="btnCompartilhar">Compartilhar esta mensagem</button>
+                <button class="btn-quarto btn-quarto-secundario" id="btnVoltar">Voltar</button>
+            </div>
+
+            <div class="toast" id="toastCopiado">Link copiado!</div>
+        </section>
+        <div class="overlay-fragmento" id="overlayFragmento" hidden>
+            <div class="fragmento-conteudo">
+                <div class="cartao-fragmento">
+                    <div class="fragmento-foto" id="fragmentoFoto">
+                        <img id="fragmentoFotoImg" src="" alt="">
+                    </div>
+
+                    <div class="fragmento-topo">
+                        <p class="fragmento-titulo" id="fragmentoTitulo">FRAGMENTO 01</p>
+                        <div class="fragmento-linha"></div>
+                        <p class="fragmento-quote" id="fragmentoQuote">"..."</p>
+                    </div>
+
+                    <div class="fragmento-stat">
+                        <p id="fragmentoStat">...</p>
+                    </div>
+
+                    <button class="btn-quarto" id="btnGuardarFragmento">Guardar fragmento</button>
+                </div>
+
+                <div class="objeto-fragmento-wrap">
+                    <img class="objeto-fragmento" id="objetoFragmento" src="" alt="">
+                    <span class="objeto-fragmento-nome" id="objetoFragmentoNome">Objeto</span>
+                </div>
+            </div>
+
+            <button class="fragmento-fechar" id="btnFecharFragmento" aria-label="Fechar">×</button>
+        </div>
+
+    </div>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/quarto.js"></script>
+</body>
+
+</html>
