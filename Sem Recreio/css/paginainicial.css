@@ -334,7 +334,7 @@ body {
 
 .banner-apoiadores {
   position: relative;
-  background-image: linear-gradient(rgba(107, 144, 166, 0.75), rgba(107, 144, 166, 0.75)), url('../assents/img/fundo.png');
+  background-image: linear-gradient(rgba(107, 144, 166, 0.75), rgba(107, 144, 166, 0.75)), url('Sem Recreio/assents/img/fundo.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -347,12 +347,12 @@ body {
 
 .banner-apoiadores .logo-overlay {
   position: absolute;
-  left: 2%;
-  top: 50%;
+  left: -5%;
+  top: 40%;
   transform: translateY(-50%) rotate(-8deg);
   height: 350%;
   max-height: 480px;
-  z-index: 10;
+  z-index: 1;
   pointer-events: none;
 }
 

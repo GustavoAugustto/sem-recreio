@@ -122,7 +122,7 @@ body {
 
 .urso {
   position: absolute;
-  left: 0;
+  right: 70%;
   bottom: 0;
   z-index: 1;
   pointer-events: none;
@@ -165,6 +165,28 @@ body {
   display: flex;
   gap: 30px;
   margin-bottom: 45px;
+}
+
+.botao {
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #6B90A6;
+  background-color: #E6AF47;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  outline: 2px solid #C49234;
+  outline-offset: -6px;
+
+}
+
+.botao:hover,
+.botao:focus-visible {
+  background-color: #e0e0e0;
 }
 
 
